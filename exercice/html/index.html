@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cCONVERT</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+
+<h2 id="yourID">Lenght Converter</h2>
+<p id="myID" > Type a value in the inchs field to convert the value to Cms:</p>
+
+<p>
+  <label>inch</label>
+  <input id="inchs" type="number" placeholder="inchs" oninput="lenghtConverter(this.value)"
+   onchange="lenghtConverter(this.value)">
+</p>
+<p>Cm: <span id="outputcm"></span></p>
+
+<br></br>
+<hr>
+
+
+
+<h2 id="yourID"> Lenght Converter</h2>
+<p id="myID" >Type a value in the Cms field to convert the value to inchs:</p>
+
+<p>
+  <label>Cms</label>
+  <input id="Cms" type="number" placeholder="Cms" oninput="inchConverter(this.value)"
+   onchange="inchConverter(this.value)">
+</p>
+<p>inch: <span id="outputinch"></span></p>
+
+<script src="../js/main.js"></script>
+
+
+</body>
+</html>
